@@ -55,7 +55,7 @@
     --cubic-in: cubic-bezier(0.51, 0.03, 0.64, 0.28);
     --cubic-out: cubic-bezier(0.33, 0.85, 0.4, 0.96);
   
-  }
+}
   
   
   
@@ -63,69 +63,69 @@
   
 /*RESET*/
   
-  *,
-  *::before,
-  *::after {
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
   
-  li { list-style: none; }
+li { list-style: none; }
   
-  a {
+a {
     text-decoration: none;
     color: inherit;
-  }
+}
   
-  a,
-  img,
-  time,
-  span,
-  input,
-  button,
-  ion-icon { display: block; }
+a,
+img,
+time,
+span,
+input,
+button,
+ion-icon { display: block; }
   
-  img { height: auto; }
+img { height: auto; }
   
-  input,
-  button {
+input,
+button {
     background: none;
     border: none;
     font: inherit;
-  }
+}
   
-  input { width: 100%; }
+input { width: 100%; }
   
-  button { cursor: pointer; }
+button { cursor: pointer; }
   
-  ion-icon { pointer-events: none; }
+ion-icon { pointer-events: none; }
   
-  html {
+html {
     font-family: var(--ff-rubik);
     font-size: 10px;
     scroll-behavior: smooth;
-  }
+}
   
-  body {
+body {
     background-color: var(--white);
     color: var(--onyx);
     font-size: 1.6rem;
     line-height: 1.7;
-  }
+}
   
-  :focus-visible { outline-offset: 4px; }
+:focus-visible { outline-offset: 4px; }
   
-  ::-webkit-scrollbar { width: 12px; }
+::-webkit-scrollbar { width: 12px; }
   
-  ::-webkit-scrollbar-track { background-color: var(--cultured-2); }
+::-webkit-scrollbar-track { background-color: var(--cultured-2); }
   
-  ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background-color: hsl(0, 0%, 80%);
     border: 2px solid var(--cultured-2);
-  }
+}
   
-  ::-webkit-scrollbar-thumb:hover { background-color: hsl(0, 0%, 70%); }
+::-webkit-scrollbar-thumb:hover { background-color: hsl(0, 0%, 70%); }
   
   
 
