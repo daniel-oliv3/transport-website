@@ -1,18 +1,133 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
+:root {
 
-
-* { 
-    font-family: 'Montserrat', sans-serif;
+    /*colors*/
+  
+    --green-blue-crayola: hsl(202, 75%, 47%);
+    --prussian-blue: hsl(202, 72%, 15%);
+    --eerie-black: hsl(210, 11%, 15%);
+    --dark-orange: hsl(32, 100%, 50%);
+    --alice-blue: hsl(203, 100%, 97%);
+    --light-gray: hsl(0, 0%, 80%);
+    --indigo-dye: hsl(202, 64%, 26%);
+    --cultured-1: hsl(0, 0%, 94%);
+    --cultured-2: hsl(0, 0%, 95%);
+    --cultured-3: hsl(0, 0%, 95%);
+    --plutinum: hsl(0, 0%, 91%);
+    --black_60: hsla(0, 0%, 0%, 0.6);
+    --white: hsl(0, 0%, 100%);
+    --black: hsl(0, 0%, 0%);
+    --onyx: hsl(0, 0%, 24%);
+  
+    /*typography*/
+  
+    --ff-oswald: 'Oswald', sans-serif;
+    --ff-rubik: 'Rubik', sans-serif;
+  
+    --fs-1: 6rem;
+    --fs-2: 5rem;
+    --fs-3: 4rem;
+    --fs-4: 3rem;
+    --fs-5: 2.2rem;
+    --fs-6: 2rem;
+    --fs-7: 1.8rem;
+    --fs-8: 1.5rem;
+    --fs-9: 1.4rem;
+    --fs-10: 1.2rem;
+  
+    --fw-500: 500;
+    --fw-600: 600;
+    --fw-700: 700;
+    --fw-800: 800;
+  
+    /*spacing*/
+  
+    --section-padding: 50px;
+  
+    /*shadow*/
+     
+    --shadow-1: 2px 0 50px hsla(0, 0%, 0%, 0.2);
+    --shadow-2: 0px 40px 60px hsla(202, 75%, 47%, 0.7);
+    --shadow-3: 0px 0px 60px hsla(202, 75%, 47%, 0.5);
+  
+    /*transition*/
+  
+    --transition: 0.25s ease;
+    --cubic-in: cubic-bezier(0.51, 0.03, 0.64, 0.28);
+    --cubic-out: cubic-bezier(0.33, 0.85, 0.4, 0.96);
+  
+  }
+  
+  
+  
+  
+  
+/*RESET*/
+  
+  *,
+  *::before,
+  *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: none;
-    border: none;
+  }
+  
+  li { list-style: none; }
+  
+  a {
     text-decoration: none;
-    transition: all .2s linear;
-}
-
-
+    color: inherit;
+  }
+  
+  a,
+  img,
+  time,
+  span,
+  input,
+  button,
+  ion-icon { display: block; }
+  
+  img { height: auto; }
+  
+  input,
+  button {
+    background: none;
+    border: none;
+    font: inherit;
+  }
+  
+  input { width: 100%; }
+  
+  button { cursor: pointer; }
+  
+  ion-icon { pointer-events: none; }
+  
+  html {
+    font-family: var(--ff-rubik);
+    font-size: 10px;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: var(--white);
+    color: var(--onyx);
+    font-size: 1.6rem;
+    line-height: 1.7;
+  }
+  
+  :focus-visible { outline-offset: 4px; }
+  
+  ::-webkit-scrollbar { width: 12px; }
+  
+  ::-webkit-scrollbar-track { background-color: var(--cultured-2); }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: hsl(0, 0%, 80%);
+    border: 2px solid var(--cultured-2);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover { background-color: hsl(0, 0%, 70%); }
+  
+  
 
 
 
